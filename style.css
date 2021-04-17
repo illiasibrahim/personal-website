@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* header */
+
+.row{
+    --bs-gutter-x:0;
+}
+
+
+.header{
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+.header h3{
+    color: rgba(0,0,0,.55);
+}
+
+.navbar-toggler-icon{
+    width: 3em;
+
+}
+
+/*intro*/
+
+.intro{
+    background-color:#bdc7c9;
+    --bs-gutter-x: 0;
+    text-align: center;
+    color: #f4f4f4;
+    
+}
+
+.intro-text{
+    margin-top:19rem;
+}
+
+.intro .btn{
+    background-color: #bdc7c9;
+    color: #f4f4f4;
+    margin-bottom: 4rem;
+    border-color: #f4f4f4;
+}
+
+.intro .btn:hover{
+    border-color: #f4f4f4;
+    color: rgba(0,0,0,.55);
+    background: #f4f4f4;
+}
+
+/* Services */
+
+.main-service{
+    text-align: center;
+    padding-top: 3rem;
+    color: rgba(0,0,0,.55);
+    align-items: center;
+    background: #bdc7c9;
+
+}
+
+.main-service h3{
+    color: #f4f4f4;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.main-service .service-cards-start{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+}
+
+
+.main-service .card{
+    width: 20rem;
+    margin: 1rem;
+}
+
+.main-service .card-img-top{
+    margin-top: 1rem;
+}
+
+/* Experience */
+
+
+.main-experience{
+    text-align: center;
+    padding-top: 3rem;
+    align-items: center;
+    
+}
+
+.main-experience h3{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgba(0,0,0,.55);
+}
+
+.main-experience .experience-cards-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.main-experience .card{
+    width: 25rem;
+    margin: 1rem;
+    color: rgba(0,0,0,.55);
+}
+
+.main-experience .card-img-top{
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+
+
+/* Contact me */
+
+.contact{
+    color: rgba(0,0,0,.55);
+}
+
+.sent-button{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+}
+
+.sent-button .btn{
+    background: none;
+    color: rgba(0,0,0,.55);
+    border:solid .5px #bdc7c9;
+    width: 8rem;
+}
+
+.sent-button .btn:hover{
+    background:rgba(0,0,0,.55);
+    color : #f4f4f4;
+}
+
+/*footer*/
+
+
+.main-footer{
+    background: rgba(0,0,0,.55);
+    color:#bdc7c9 ;
+}
+
+.main-footer i{
+    color:#bdc7c9 ;
+}

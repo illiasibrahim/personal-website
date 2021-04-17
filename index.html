@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illias Ibrahim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+<body>
+
+    <!--header-->
+
+    <header class="header">
+        <div class="row">
+            <div class="col-9 col-sm-10 col-md-6 ">
+                <h3 class="mt-3 ms-3">sail!</h3>
+            </div>
+            <div class="col-3 col-sm-2 col-md-6 ">
+                <nav class="navbar navbar-expand-md  navbar-light ">
+
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon nav-toggler"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-bar" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-fluid">
+
+        <!-- intro -->
+
+        <div class="row intro" id="home">
+            <div class="col-12 intro-text">
+                <h1>HI, I AM ILLIAS.</h1>
+                <h2>AND I AM A DEVELOPER</h2>
+                <P>I'm a tech enthusiast willing to learn and develop new things.</P>
+                <p>I can help you bring your ideas into life.</p>
+                <br>
+                <p>got any questions?</p>
+                <a href="#contact" class=""><button class="btn btn-secondary">contact me</button></a>
+            </div>
+        </div>
+
+        <!-- Services -->
+
+        <section class="main-service" id="services">
+            <h3>I can help you in</h3>
+            <div class="row service-cards-start">
+                <div class="card">
+                    <img class="card-img-top" src="./images/static.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Developing static websites</h5>
+                        <p class="card-text">Let it be a small scale or large scale enterprise. I can help you deliver
+                            your ideas through static websites.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/upgrade.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Upgrading your <br>websites </h5>
+                        <p class="card-text">Things are changing rapidly around you. Don't be a tail runner always.
+                            Upgrade your current websites to modern designs.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/custom.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Creating custom <br>designs</h5>
+                        <p class="card-text">Let your potential speak through unique designs that can attract millions
+                            around you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiences -->
+
+        <section class="main-experience" id="experience">
+            <h3>Here are some of my recent works</h3>
+            <div class="row experience-cards-start">
+                <div class="card">
+                    <img class="card-img-top" src="./images/Microsoft-landing-page-color.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft landing page</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/Microsoft-landing-page-color.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix landing page</h5>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/Microsoft-landing-page-color.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazon landing page</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact container" id="contact">
+            <h3 class="pb-5 text-center">Contact Me</h3>
+            <form class="row g-3" id="contact-form" action="">
+
+                <div class="col-md-6 pe-4 ps-4">
+                    <label for="" class="form-label fw-bold">Name</label>
+                    <input name="" type="text" class="form-control me-4" id="nme" placeholder="" required>
+                    <label style="display: none; color: #dc3545;" for="" id="namevaliderror">Enter a valid name</label>
+                    <label style="display: none; color: #dc3545;" for="" id="namelengtherror">Enter at least 4
+                        characters</label>
+
+                    <br>
+                    <label for="" class="form-label fw-bold">Email</label>
+                    <input name="" type="" class="form-control me-4" id="mail" placeholder="" required>
+                    <label style="display: none; color: #dc3545;" for="" id="mailvaliderror">Enter a valid mail
+                        Id</label>
+                    <br>
+                    <label for="" class="form-label fw-bold">Contact number</label>
+                    <input name="" type="" class="form-control me-4" id="mobile" placeholder="" required>
+                    <label style="display: none; color: #dc3545;" for="" id="mobilevaliderror">Enter a valid contact
+                        number</label>
+                    <br>
+                </div>
+                <div class="col-md-6 pe-4 ps-4">
+                    <label for="" class="form-label fw-bold">Your Message</label>
+                    <textarea class="form-control pb-3 " name="" id="" cols="30" rows="8"
+                        placeholder="What do you want to know ?" required></textarea>
+                </div>
+                <div class="col-12 sent-button text-center">
+                    <button type="submit" class="btn btn-secondary mt-5" id="send">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="text-center pt-4 pb-4">
+                <h5>Let's get social ;)</h5>
+                <a href="https://www.facebook.com/illias.ibrahim.146/"><i
+                        class="fa fa-facebook-square fa-2x m-2"></i></a>
+                <a href="https://www.instagram.com/_illiasibrahim/"><i class="fab fa-instagram fa-2x m-2"></i></a>
+                <a href="https://www.linkedin.com/in/illias-ibrahim-7b808a138/"><i
+                        class="fab fa-linkedin-in fa-2x m-2"></i></a>
+                <a href="https://github.com/illiasibrahim"><i class="fab fa-github fa-2x m-2"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a73f9c0e98.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
