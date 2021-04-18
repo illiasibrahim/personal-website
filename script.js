@@ -2,6 +2,29 @@ $(document).ready(function () {
     var nameflag = 0;
     var mailflag = 0;
     var mobileflag = 0;
+
+    $("#contact-form").submit((e) => {
+        e.preventDefault()
+        $.ajax({
+            url: "https://script.google.com/macros/s/AKfycbzJEMg9FY47bz1O4hDUjYTIpzktOTe38cHC3GPcG_Nr2xOb9heHJqtks_1VJVzkN9eymA/exec",
+            data: $("#contact-form").serialize(),
+            method: "post",
+            success: function (response) {
+                alert("Form submitted successfully")
+                document.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error: function (err) {
+                alert("Something Error")
+
+            }
+        })
+    })
+
+    $( '#contact-form' ).each(function(){
+        this.reset();
+    });
+
     $("#nme").blur(function () {
         var username = $(this).val();
         var validname = /^[A-Za-z]+$/;
@@ -78,27 +101,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#contact-form").submit((e) => {
-        e.preventDefault()
-        $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbzJEMg9FY47bz1O4hDUjYTIpzktOTe38cHC3GPcG_Nr2xOb9heHJqtks_1VJVzkN9eymA/exec",
-            data: $("#contact-form").serialize(),
-            method: "post",
-            success: function (response) {
-                alert("Form submitted successfully")
-                document.location.reload()
-                //window.location.href="https://google.com"
-            },
-            error: function (err) {
-                alert("Something Error")
-
-            }
-        })
-    })
-
-    $( '#contact-form' ).each(function(){
-        this.reset();
-    });
+    
     
 
 })

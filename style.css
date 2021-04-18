@@ -5,9 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
 /* header */
 
 .row{
@@ -22,7 +19,6 @@
     z-index: 1;
 
 }
-
 
 .header h3{
     color: rgba(0,0,0,.55);
