@@ -163,3 +163,15 @@
 .main-footer i{
     color:#bdc7c9 ;
 }
+
+/* back to top */
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+	z-index: 2;
+    background: #bdc7c9;
+    border: none;
+}
